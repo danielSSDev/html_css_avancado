@@ -5,6 +5,13 @@ $(function () {
         e.preventDefault();
         $('.nav').toggleClass('active');
     });
-    //esse é um comentario
 
+    //fixar header
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 100) {
+            $('.header').addClass('fixed');
+        }else{
+            $('.header').removeClass('fixed');
+        }
+    });
 });
