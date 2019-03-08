@@ -15,5 +15,3 @@ $(function () {
         }
     });
 }); 
-// isso é um teste
-// esse é o comentario 2
